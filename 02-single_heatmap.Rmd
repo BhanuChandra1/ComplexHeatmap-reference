@@ -487,7 +487,7 @@ The last command is as same as :
 # code only for demonstration
 Heatmap(mat, name = "mat", cluster_rows = function(m) as.dendrogram(diana(m)),
     cluster_columns = function(m) as.dendrogram(agnes(m)), 
-    column_title = "clutering functions")
+    column_title = "clustering functions")
 ```
 
 Please note, when `cluster_rows` is set as a function, the argument `m` is the
